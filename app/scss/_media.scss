@@ -1,0 +1,145 @@
+@media(max-width: 1600px) {
+    .top {
+        background-position: center center;
+    }
+}
+
+@media(max-width: 1024px) {
+    
+    .header {
+        &__top {
+            display: block;
+        }
+
+        &__top-btn {
+            margin-left: 0;
+        }
+
+        &__top-wrap {
+            margin-bottom: 20px;
+        }
+    }
+
+    .menu {
+        position: absolute;
+        left: -300%;
+        width: 100%;
+        flex-direction: column;
+        gap: 30px;
+        border: 3px solid #fff;
+        background-color: #202020;
+        z-index: 50;
+        transition: all .3s;
+        
+        &__item-logo {
+            display: none;
+        }
+
+        &__item {
+            width: 100%;
+        }
+
+        &__link {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    .menu.menu--active {
+        left: 0;
+        padding: 30px 0;
+    }
+
+    .logo-mobile {
+        display: inline-block;
+    }
+
+    .burger-menu {
+        display: inline-block;
+    }
+
+    .burger-menu--active {
+        
+        span {
+            display: none;
+        }
+
+        &::before {
+            top: 10px;
+            transform: rotate(-45deg)
+        }
+        &::after {
+            top: 10px;
+            transform: rotate(45deg)
+        }
+    }
+
+    .products {
+        &__content-item {
+            
+            flex-wrap: wrap;
+        }
+    }
+
+    .work {
+        &__content-item {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: flex-start;
+        }
+
+        &__carusel-img:nth-child(5) {
+            margin-top: 0;
+        }
+    }
+}
+
+
+@media(max-width: 1024px) { 
+    .top {
+        &__title {
+            font-size: 40px;
+        }
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .products {
+        &__content-item {
+            justify-content: center;
+        }
+    }
+
+    .advantages {
+        &__inner {
+            row-gap: 30px;
+        }
+
+        &__item svg {
+            margin-bottom: 15px;
+        }
+    }
+
+    .about {
+        &__images-wrap {
+            display: none;
+        }
+    }
+   
+    
+}
+
+
+@media(max-width: 425px) { 
+    .top {
+        &__title {
+            font-size: 30px;
+            line-height: 41px;
+        }
+    }
+}
+    

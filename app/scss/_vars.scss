@@ -1,0 +1,57 @@
+// $accent: #fe3e57;
+$default: #fff;
+// $title: #29282d;
+// $bg: #f6f6f6;
+
+
+%faturePT-400 {
+    font-family: 'FuturaPT-Book', sans-serif;
+    font-weight: 400;
+}
+
+%faturePT-500 {
+    font-family: 'FuturaPT-Medium', sans-serif;
+    font-weight: 500;
+}
+
+%faturePT-600 {
+    font-family: 'FuturaPT-Demi', sans-serif;
+    font-weight: 600;
+}
+
+%faturePT-700 {
+    font-family: 'FuturaPT-Bold', sans-serif;
+    font-weight: 700;
+}
+
+%notosans-400 {
+    font-family: 'NotoSans', sans-serif;
+    font-weight: 400;
+}
+
+
+%flex-standard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+// %btn {
+//     padding: 12px 26px;
+//     text-transform: uppercase;
+//     color: #fff;
+//     background-color: $accent;
+//     @extend %roboto-700;
+//     box-shadow: 0px 7px 20px 0px rgba(255, 17, 48, 0.3);
+//     cursor: pointer;
+// }
+
+// %checkbox-hidden,
+// %radio-hidden {
+//     width: 1px;
+//     height: 1px;
+//     overflow: hidden;
+//     clip: rect(0 0 0 0);
+//     position: absolute;
+// }
